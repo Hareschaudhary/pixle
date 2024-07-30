@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --font-poppins:Poppins;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:var(--font-poppins) ;
+    /* overflow-x: hidden; */
+   
+}
+body{
+    background-color: var(--white);
+}
+html{
+    font-size:100% ;
+}
+.container{
+    /* border: 2px solid red; */
+}
+.swiper-slide{
+    height: auto;
+}
+
+/* hero-page */
+.hero-page h4{
+    font-size: 5.688rem;
+    /* font-size: 2.688rem; */
+line-height: 1.00;
+color: #484848;
+font-weight: 500;
+}
+
+.hero-page h3{
+font-size: 11.688rem;
+line-height: 1.00;
+color: white;
+/* text-shadow: 5px 1px 0px #484848; */
+font-weight: 500;
+text-shadow:
+3px 3px 0 #484848,
+-1px -1px 0 #484848,  
+1px -1px 0 #484848,
+-1px 1px 0 #484848,
+1px 1px 0 #484848;
+}
+.hero span{
+font-size: 20px;
+color: #484848;
+font-weight: 400;
+}
+.hero-btn{
+    font-size: 16px;
+/* line-height: 1.00; */
+color: #ffffff;
+font-weight: 500;
+border-radius: 10px;
+background-color: #000000;
+width: 207px;
+height: 56px;
+}
+.sec-four{
+    background-color: rgb(255, 255, 255);
+}
+.sec-four a,button{
+    font-size: 16px;
+    line-height: 1.00;
+    color: #8a8a8a;
+    font-weight: 400;
+    background-color: rgb(250, 250, 250);
+    transition-duration: 1.2s;
+}
+.sec-four a:hover{
+    background-color: rgba(0, 0, 0, 0.881);
+    color: white;
+}
+.sec-four h4{
+    font-family: Volkhov;
+font-size: 46px;
+color: #484848;
+font-weight: 400;
+}
+.sec-four p{
+    font-family: Poppins;
+font-size: 16px;
+line-height: 1.62;
+color: #8a8a8a;
+font-weight: 400;
+}
+.tabs .active{
+    background-color: black !important;
+    color: white !important;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.673);
+}
+.tabs .btn-light{
+    background-color: rgb(250, 250, 250);
+    color: rgb(166, 166, 166);
+}
+.sopping-card{
+  /* box-shadow: 0px 0px 1px black; */
+  /* background-color: rgba(255, 255, 255, 0.5); */
+}
+.type{
+    font-family: Poppins;
+font-size: 20px;
+color: #484848;
+font-weight: 500;
+margin: 0;
+}
+.al{
+    font-family: Poppins;
+font-size: 12px;
+line-height: 1.00;
+color: #8a8a8a;
+font-weight: 500;
+/* padding-top: -40px; */
+}
+.reviews{
+    font-family: Poppins;
+font-size: 12px;
+color: #484848;
+font-weight: 500;
+}
+.price{
+    font-family: Poppins;
+font-size: 24px;
+line-height: 0.83;
+color: #484848;
+font-weight: 500;
+}
+.out{
+    font-family: Poppins;
+font-size: 12px;
+line-height: 1.67;
+color: #ff4646;
+font-weight: 400;
+}
+.dark-btn{
+    font-family: Poppins;
+font-size: 16px;
+line-height: 1.00;
+color: #ffffff;
+font-weight: 400;
+border-radius: 10px;
+background-color: #000000;
+width: 207px;
+height: 56px;
+}
+.owl-nav{
+    display: none !important;
+}
+.owl-dots{
+    position: absolute;
+    left: 40%;
+    bottom: 0px;
+    background-color: rgb(248, 249, 250);
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.sec-three .text h3{
+    font-family: Volkhov;
+font-size: 46px;
+color: #484848;
+font-weight: 400;
+}
+.sec-three .text span{
+    font-family: Poppins;
+font-size: 16px;
+line-height: 1.62;
+color: #8a8a8a;
+font-weight: 400;
+}
+.sec-three .watch p{
+    font-family: Poppins;
+font-size: 28px;
+color: #484848;
+font-weight: 500;
+}
+
+.watch-number .number{
+    font-family: Orbitron;
+    font-size: 32px;
+    line-height: 1.00;
+    color: #484848;
+    font-weight: 400;
+}
+.watch-text{
+    font-family: Poppins;
+font-size: 24px;
+line-height: 1.20;
+color: #484848;
+font-weight: 400;
+}
+.prev,.next{
+    width: 48px;
+    height: 48px;
+}
+.sec-three{
+    background-color: rgb(255, 255, 255);
+}
+
+.sec-five-text{
+    /* background-color: rgb(218,218,218); */
+}
+.sec-seven{
+    background-color: rgb(255, 255, 255);
+}
+
+.shadow-botom{
+    box-shadow: 0px 3px 2px black;
+}
+.my-p{
+    font-size: 46px ;
+} 
+.sec-five{
+    background-image: url("/assets/images/sec-five/image.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.Copyright{
+    font-size: 20px !important;
+  }
+  .sec-nine-text  .shadow-sm{
+    box-shadow: 0px 15px 10px -15px #111111ba !important; 
+  }
+@media  screen and (max-width: 1400px){
+    .my-p {
+      font-size: 36px ;
+      /* background: black; */
+    }
+    .sec-five{
+        background-image: url("/assets/images/sec-five/image.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .Instagram {
+        font-size: 96px !important;
+      }
+      .owl-dots{
+        width: 50%;
+        left:51% ;
+      }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .sec-five{
+        background-image: url("");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-color: rgb(218,218,218);
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+  }
+
+@media only screen and (max-width: 576px) {
+    .hero-page h4{
+        /* font-size: 5.688rem; */
+        font-size: 2.688rem;
+
+    }
+    .hero-page h3{
+        font-size: 3.688rem;
+    }
+    .hero-btn{
+        width: 116px;
+        height: 38px;
+        margin-top: 10px;
+    }
+    .watch-number .number{
+        font-size: 11px;
+    }
+    .watch-text{
+        font-size: 15px;
+    }
+    .sec-three .text h3{
+        font-size: 25px;
+    }
+   .sec-three .watch p{
+    font-size: 22px;
+   }
+   .sec-four a{
+    font-size: 9px;
+   }
+   .sec-four p{
+    font-size: 11px;
+   }
+   .sec-six-card{
+    /* border-bottom: 2px solid black; */
+    margin-bottom: 7px;
+   }
+   .sec-six-card p{
+    font-size: 9px;
+    margin-left: 40px;
+   }
+   .my-p {
+    font-size: 29px !important;
+}
+.sec-seven p{
+    font-size: 11px !important;
+    margin-bottom: 10px;
+}
+.sec-eight .heading{
+    font-size: 15px !important;
+}
+.sec-eight .pera{
+    font-size: 10px !important;
+}
+.sec-eight-card-one .pera{
+    font-size: 10px !important;
+}
+.sec-eight-card-one .name{
+    font-size: 14px !important;
+}
+.sec-eight-card-one .work{
+    font-size: 14px !important;
+}
+.sec-nine-text .pera{
+font-size: 10px !important;
+}
+.sec-nine-text .heading{
+    font-size: 15px !important;
+    }
+    .sec-nine-text .link{
+        font-size: 9px !important;
+        }
+        .footer-tabs a{
+ font-size: 9px !important;
+        }
+        .Copyright{
+            font-size: 9px !important;
+          }
+          .owl-dots{
+            position: inherit;
+            background-color: rgb(248, 249, 250);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: red; */
+            width: 100%;
+            left: 0;
+        }
+          
+  }
+ 
+
+
+
+
+
+
+
+
